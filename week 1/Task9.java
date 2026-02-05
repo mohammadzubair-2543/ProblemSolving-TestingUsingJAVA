@@ -10,12 +10,12 @@ public class Task9 {
         }
 
         if (rev != temp)
-            return 1; // Not Palindrome
-        return 2; // Palindrome
+            return 1; 
+        return 2; 
     }
 
     public static void main(String[] args) {
-        int number = 121; // change number to test
+        int number = 121; 
 
         int result = isPalinNum(number);
         System.out.println(result);
