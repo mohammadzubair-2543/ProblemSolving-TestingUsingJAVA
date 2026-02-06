@@ -10,7 +10,6 @@ public class Task6 {
             idx[i] = i;
         }
 
-        // Sort indices based on heights in descending order
         Arrays.sort(idx, (a, b) -> heights[b] - heights[a]);
 
         String[] result = new String[n];

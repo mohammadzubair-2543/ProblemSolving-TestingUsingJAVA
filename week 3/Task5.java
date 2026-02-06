@@ -12,11 +12,9 @@ public class Task5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input two number strings
         String input1 = sc.nextLine();
         String input2 = sc.nextLine();
 
-        // Call method and print result
         System.out.println(addNumberStrings(input1, input2));
 
         sc.close();

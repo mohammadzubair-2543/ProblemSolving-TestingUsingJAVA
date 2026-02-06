@@ -40,14 +40,12 @@ public class Task4 {
             testCases--;
         }
 
-        // Sorting logic
         Collections.sort(
                 studentList,
                 Comparator.comparing(Student::getCgpa).reversed()
                         .thenComparing(Student::getFname)
                         .thenComparing(Student::getId));
 
-        // Output
         for (Student st : studentList) {
             System.out.println(st.getFname());
         }

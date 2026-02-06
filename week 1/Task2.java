@@ -9,7 +9,7 @@ public class Task2 {
     public static void main(String[] args) {
         int[] arr = { 5, 10, 15, 20, 25 };
 
-        int index = 3; // try changing this value
+        int index = 3; 
         int result = elementAtIndex(arr, index);
 
         System.out.println(result);

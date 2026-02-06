@@ -19,7 +19,7 @@ public class Task3 {
     public static void main(String[] args) {
         int[] arr = { 2, 4, 6, 8, 10, 12 };
 
-        int key = 8; // change key to test
+        int key = 8; 
         int result = binarySearch(arr, key);
 
         System.out.println(result);

@@ -6,7 +6,6 @@ public class Task2 {
         String smallest = s.substring(0, k);
         String largest = s.substring(0, k);
 
-        // Loop through all substrings of length k
         for (int i = 1; i <= s.length() - k; i++) {
             String sub = s.substring(i, i + k);
 

@@ -16,8 +16,7 @@ public class Task8 {
     }
 
     public static void main(String[] args) {
-        int n = 6; // change n to test
-
+        int n = 6; 
         long result = nthFibonacci(n);
         System.out.println(result);
     }
